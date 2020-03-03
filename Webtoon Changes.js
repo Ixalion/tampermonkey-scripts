@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sukkubix's Webtoon Changes
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Script to allow easy navigation of webtoons by clicking in the margin
 // @author       Sukkubix
 // @match        https://www.webtoons.com/*/viewer*
