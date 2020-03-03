@@ -13,10 +13,10 @@
     'use strict';
 
     // Your code here...
-    $("#_imageList").on("click", function(){
+    $("#_viewerBox").on("click", function(){
         let percentThreshold = 0.25;
-        let nextThreshold = (1-percentThreshold)*$(this).width();
-        let prevThreshold = percentThreshold*$(this).width();
+        let nextThreshold = (1-percentThreshold)*$(document).width();
+        let prevThreshold = percentThreshold*$(document).width();
         if(event.pageX > nextThreshold) {
             if($("a[title='Next Episode']").attr("href")) {
                 window.location = $("a[title='Next Episode']").attr("href");
