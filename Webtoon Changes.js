@@ -11,6 +11,7 @@
 
 (function() {
     'use strict';
+    var $ = window.jQuery;
 
     // Your code here...
     $("#_viewerBox").parent().on("click", function(){
