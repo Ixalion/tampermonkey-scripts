@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Royal Road Reader Fixes
+// @name         Royal Road Reader Rework
 // @namespace    https://github.com/Ixalion/tampermonkey-scripts
 // @version      0.2
 // @description  try to take over the world!
