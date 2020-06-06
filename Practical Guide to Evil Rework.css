@@ -1,0 +1,65 @@
+.widget-area {
+    display: none;
+}
+
+.site-main {
+    margin: 0!important;
+    padding-bottom: 50vh;
+}
+
+.site-content {
+    padding: 0;
+}
+
+.site-header {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: #333333;
+}
+
+.entry-meta {
+    display: none;
+}
+
+.entry-header+.entry-content {
+    margin-top: 20px;
+}
+
+.entry-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#page {
+    background: #eff3f8;
+}
+
+#comments {
+    display: none;
+}
+
+.site-footer {
+    display: none;
+}
+
+.sharedaddy {
+    display: none;
+}
+
+.post-navigation {
+    display: none;
+}
+
+* {
+    font-family: "Noto Sans",sans-serif!important;
+}
+
+.entry-title {
+    font-weight: 400;
+}
+
+#actionbar {
+    display: none;
+}
