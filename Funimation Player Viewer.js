@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Sukkubix's Funimation Player Viewer
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Ixalion/tampermonkey-scripts
 // @version      0.1
 // @description  Script to maximize the funimation player on page load
 // @author       Sukkubix
