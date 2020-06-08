@@ -48,7 +48,8 @@
             let nextThreshold = (1-percentThreshold)*$(document).width();
             let prevThreshold = percentThreshold*$(document).width();
 
-            if(!$(event.target).parents().is(".chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container") && !$(event.target).is(".spoilerButton")) {                if(event.pageX > nextThreshold) {
+            if(!$(event.target).parents().is(".chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container") && !$(event.target).is(".spoilerButton")) {
+                if(event.pageX > nextThreshold) {
                     let href = $(".chapter .nav-buttons > :nth-child(2) > a").attr("href");
                     if(href) {
                         window.location = href;
