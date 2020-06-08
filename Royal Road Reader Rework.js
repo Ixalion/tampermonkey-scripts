@@ -47,7 +47,7 @@
             let percentThreshold = 0.45;
             let nextThreshold = (1-percentThreshold)*$(document).width();
             let prevThreshold = percentThreshold*$(document).width();
-            if(!$(event.target).parents().is(".chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container")) {
+            if(!$(event.target).parents().is(".spoilerButton, .chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container")) {
                 if(event.pageX > nextThreshold) {
                     let href = $(".chapter .nav-buttons > :nth-child(2) > a").attr("href");
                     if(href) {
