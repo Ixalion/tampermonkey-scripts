@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Royal Road Reader Rework
 // @namespace    https://github.com/Ixalion/tampermonkey-scripts
-// @version      0.3
+// @version      0.4
 // @description  try to take over the world!
 // @author       Christopher Britt (Sukkubix)
 // @match        https://www.royalroad.com/fiction/*/*/chapter/*/*
@@ -47,8 +47,8 @@
             let percentThreshold = 0.45;
             let nextThreshold = (1-percentThreshold)*$(document).width();
             let prevThreshold = percentThreshold*$(document).width();
-            if(!$(event.target).parents().is(".spoilerButton, .chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container")) {
-                if(event.pageX > nextThreshold) {
+
+            if(!$(event.target).parents().is(".chapter > .portlet-title, .chapter > .portlet-body > .nav-buttons, #rewind-container") && !$(event.target).is(".spoilerButton")) {                if(event.pageX > nextThreshold) {
                     let href = $(".chapter .nav-buttons > :nth-child(2) > a").attr("href");
                     if(href) {
                         window.location = href;
