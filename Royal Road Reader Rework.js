@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Royal Road Reader Rework
 // @namespace    https://github.com/Ixalion/tampermonkey-scripts
-// @version      0.4
-// @description  try to take over the world!
+// @version      0.5
+// @description  Manages navigation by clicking on the right/left sides of the screen. 
 // @author       Christopher Britt (Sukkubix)
 // @match        https://www.royalroad.com/fiction/*/*/chapter/*/*
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
