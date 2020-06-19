@@ -1,0 +1,55 @@
+.comments-area {
+    display: none;
+}
+
+.support_author {
+    display: none;
+}
+
+.chp_byauthor {
+    display: none;
+}
+
+.s_novel_img {
+    display: none;
+}
+
+.chapter_stats {
+    display: none;
+}
+
+.c_set {
+    display: none;
+}
+
+.nav_chp_fi {
+    display: none;
+}
+
+.content-area {
+    margin-bottom: 50vh!important;
+}
+
+.ta_c_bm {
+    display: none;
+}
+
+.next_nav_links {
+    display: none;
+}
+
+.wi_breadcrumb.chapter {
+    display: none;
+}
+
+.writeit-header {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.chapter-title {
+    text-align: left;
+    padding-left: 35px;
+}
