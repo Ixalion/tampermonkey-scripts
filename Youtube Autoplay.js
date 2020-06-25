@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Youtube autoplay
+// @name         Sukkubix's Youtube autoplay
 // @namespace    https://github.com/Ixalion/tampermonkey-scripts
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       Christopher Britt (Sukkubix)
 // @match        https://www.youtube.com/watch*
