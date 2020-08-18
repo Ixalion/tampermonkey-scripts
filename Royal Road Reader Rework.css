@@ -27,6 +27,7 @@
 
 .page-container .container>.fic-header>div> :nth-child(2) {
     margin-left: 0;
+    width: unset;
 }
 
 .page-container .container>.fic-header>div> :nth-child(2)> h1 {
@@ -64,4 +65,12 @@ body {
 
 .page-container {
     user-select: none;
+}
+
+.chapter-content > p {
+    font-size: 14px;
+}
+
+.chapter-content > p > span {
+    font-size: 14px!important;
 }
