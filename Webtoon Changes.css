@@ -4,6 +4,6 @@
 	https:\/\/www\.webtoons\.com\/en\/.+\/.+\/.+\/viewer.*
 */
 
-#_bottomDisplay {
+#_bottomDisplay, #footer, #content > .challenge_spot {
     display: none;
 }
