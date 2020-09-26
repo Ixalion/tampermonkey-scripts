@@ -1,0 +1,9 @@
+/* Webtoon Changes */
+
+/* REGEX:
+	https:\/\/www\.webtoons\.com\/en\/.+\/.+\/.+\/viewer.*
+*/
+
+#_bottomDisplay {
+    display: none;
+}
