@@ -1,0 +1,23 @@
+/* STARTS WITH:
+	https://www.egscomics.com/comic/
+*/
+
+#hw-jumpbar, #header, #menu, #footer {
+    display: none;
+}
+
+#rightarea {
+    display: none;
+}
+
+#leftarea {
+    width: 100%;
+}
+
+#leftarea > :not(#cc-comicbody) {
+    display: none;
+}
+
+#cc-comicbody {
+    width: unset;
+}
