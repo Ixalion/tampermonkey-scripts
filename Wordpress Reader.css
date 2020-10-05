@@ -5,6 +5,14 @@
 	Regex:
 	https:\/\/oniichanyamete\.moe\/\d+\/\d+\/\d+\/.+
 
+	Sample Pages:
+	https://oniichanyamete.moe/2019/01/05/01-the-world-of-yggdrasia/
+
+
+	Compare to: (With relevant override)
+	https://www.royalroad.com/fiction/16946/azarinth-healer/chapter/563771/chapter-554-overleveled
+
+	Recommended Zoom: 150% (1440p)
 */
 
 .widget-area {
@@ -20,8 +28,25 @@
     max-width: unset;
 }
 
+.content-area {
+    padding-top: 0;
+}
+
 .site-content {
     padding: 0;
+    padding-top: 25px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    background: white!important;
+    width: 1200px;
+}
+
+.site-content .entry-content, .site-content .entry-header {
+    max-width: 70%;
+}
+
+.site-main {
+    background: #eff3f8;
 }
 
 /* I've seen this used as a background image */
@@ -34,6 +59,7 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    max-width: unset;
     background: #333333;
 }
 
@@ -82,6 +108,16 @@
     display: none;
 }
 
+#secondary {
+    display: none;
+}
+
+/* Loosen site width restrictions */
+.site-content .entry-summary, .site-content .entry-meta, .page-content {
+    max-width: unset;
+}
+
+/* Remove custom backgrounds from the body */
 body.custom-background {
     background: none;
 }
