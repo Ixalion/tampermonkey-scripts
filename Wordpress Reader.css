@@ -3,7 +3,8 @@
 	oniichanyamete.moe
 
 	Regex:
-	https:\/\/oniichanyamete\.moe\/\d+\/\d+\/\d+\/.+
+	https://bakapervert.wordpress.com/soudouki-vol-1-prologue/
+	https:\/\/bakapervert\.wordpress\.com\/.*\-vol\-.*
 
 	Sample Pages:
 	https://oniichanyamete.moe/2019/01/05/01-the-world-of-yggdrasia/
@@ -120,4 +121,9 @@
 /* Remove custom backgrounds from the body */
 body.custom-background {
     background: none;
+}
+
+/* Remove a custom header (As seen on bakapervert) */
+#header {
+    display: none;
 }
