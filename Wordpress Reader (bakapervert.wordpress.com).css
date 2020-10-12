@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Wordpress Reader (bakapervert.wordpress.com)
 // @namespace    https://github.com/Ixalion/tampermonkey-scripts
-// @version      0.1
+// @version      0.2
 // @description  Special Wordpress reader for bakapervert.wordpress.com to use the custom next/back buttons
 // @author       Christopher Britt (Sukkubix)
 // @match        https://bakapervert.wordpress.com/*-vol-*
