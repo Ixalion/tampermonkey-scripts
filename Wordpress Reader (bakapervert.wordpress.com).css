@@ -37,12 +37,12 @@
             let prevThreshold = percentThreshold*$(document).width();
             if(!$(event.target).parents().is(".site-header")) {
                 if(event.pageX > nextThreshold) {
-                    let href = $(".site-content .entry-content a:contains(Next)").attr("href");
+                    let href = $(".entry-content a:contains(Next)").attr("href");
                     if(href) {
                         window.location = href;
                     }
                 } else if(event.pageX < prevThreshold) {
-                    let href = $(".site-content .entry-content a:contains(Previous)").attr("href");
+                    let href = $(".entry-content a:contains(Previous)").attr("href");
                     if(href) {
                         window.location = href;
                     }
