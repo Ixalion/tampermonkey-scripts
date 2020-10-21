@@ -36,7 +36,7 @@
             let nextThreshold = (1-percentThreshold)*$(document).width();
             let prevThreshold = percentThreshold*$(document).width();
 
-            if(!$(event.target).parents().is(".spoiler") && !$(event.target).is(".spoiler")) {
+            if(!$(event.target).parents().is(".spoiler, .pollstart") && !$(event.target).is(".spoiler")) {
                 if(event.pageX > nextThreshold) {
                     let href = $(".next_nav_links > .btn-next").attr("href");
                     if(href) {
