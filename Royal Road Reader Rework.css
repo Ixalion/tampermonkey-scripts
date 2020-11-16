@@ -14,15 +14,15 @@
 
 /* Hide everything except the chapter title from the top element */
 
-.page-container .container>.fic-header>div> :not(:nth-child(2)),
-.page-container .container>.fic-header>div> :nth-child(2)> :not(h1) {
+.page-container .container .fic-header>div> :not(:nth-child(2)),
+.page-container .container .fic-header>div> :nth-child(2)> :not(h1) {
     display: none!important;
 }
 
 
 /* Restyle the chapter title */
 
-.page-container .container>.fic-header {
+.page-container .container .fic-header {
     margin-bottom: 0!important;
     background: white;
     
@@ -30,12 +30,16 @@
     margin-left: 0;
 }
 
-.page-container .container>.fic-header>div> :nth-child(2) {
+.page-container .container .fic-header h1 {
+    color: black!important;
+}
+
+.page-container .container .fic-header>div> :nth-child(2) {
     margin-left: 0;
     width: unset;
 }
 
-.page-container .container>.fic-header>div> :nth-child(2)> h1 {
+.page-container .container .fic-header>div> :nth-child(2)> h1 {
     color: black!important;
     margin-left: 160px;
 }
@@ -43,7 +47,7 @@
 
 /* Remove the non-necessary portlets */
 
-.page-container .container>.portlet:not(#rewind-container):not(.chapter) {
+.page-container .container>div>.portlet:not(#rewind-container):not(.chapter) {
     display: none;
 }
 
